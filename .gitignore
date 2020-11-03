@@ -1,0 +1,7 @@
+output
+master-worker
+a.out
+rw_lock-r-test
+rw_lock-w-test
+SSU_Sem_test
+SSU_Sem_toggle_test
