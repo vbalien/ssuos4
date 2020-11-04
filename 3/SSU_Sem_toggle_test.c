@@ -42,8 +42,9 @@ int main(int argc, char *argv[])
     {
       mythread_id[i] = i;
       pthread_create(&mythreads[i], NULL, justprint, (void *)&mythread_id[i]);
+      usleep(0);
     }
-    usleep(0);
+    sleep(1);
     for (int i = 0; i < NUM_THREADS; i++)
       for (int j = 0; j < NUM_ITER; j++)
       {
